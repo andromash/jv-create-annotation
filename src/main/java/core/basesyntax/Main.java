@@ -9,6 +9,7 @@ public class Main {
     public static void main(String[] args) throws InvocationTargetException,
             NoSuchMethodException, InstantiationException, IllegalAccessException {
         //test comment
+        //new test comment 23
         ConsoleHandler handler = (ConsoleHandler) Injector.getInstance(ConsoleHandler.class);
         System.out.println("Enter name, surname, age, value and risk for your bet");
         handler.handle();
